@@ -1,0 +1,54 @@
+<!--ninedotfive-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+	
+		<title>Sweats Electro 2017</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+	</head>
+	
+	<body>
+		
+		<!--image's sweat demonstration-->
+		<div class = "container">
+			<img src="pic_mountain.jpg" alt="Mountain" style="width:400px;height:300px;">
+		</div><br>
+		
+		<!--form to confirm the order-->
+		<div class = "container">
+			<form class="form-down">
+		<div class="form-group">
+		<div class="checkbox">
+		<label><input type="checkbox" value="">cinzento</label>
+		</div>
+		<div class="checkbox">
+		<label><input type="checkbox" value="">preto</label>
+		</div>
+		
+        <input type="email" class="form-control" id="email" placeholder="email">
+		</div>
+		<div class="form-group">
+        <input type="text" class="form-control" id="name" placeholder="name">
+		</div>
+		<div class="form-group">
+        <input type="text" class="form-control" id="nº ist" placeholder="nº ist">
+		</div>
+        <button type="submit" class="btn btn-default">Submit</button>
+		</form><br>
+		<label class="control-label">Select File</label>
+		<input id="input-20" type="file" class="file-loading">
+		<script>
+			$(document).on('ready', function() {
+			$("#input-20").fileinput({
+				browseClass: "btn btn-primary btn-block",
+				showCaption: false,
+				showRemove: false,
+				showUpload: false
+				});
+			});
+		</script>
+		</div>
+		
+	</body>
+</html>

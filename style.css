@@ -1,0 +1,9 @@
+body{
+background-color: #161616;
+font-family: Tahoma;
+}
+
+div.conteiner{{
+	width:500px;
+    margin: auto;
+}
